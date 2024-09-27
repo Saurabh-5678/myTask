@@ -20,7 +20,7 @@ const TaskSchema = new mongoose.Schema({
     enum: ["Low", "Medium", "High"],
     required: true,
   },
-  comment: {
+  comments: {
     type: String,
     trim: true,
   }
